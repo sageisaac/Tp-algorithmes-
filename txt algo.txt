@@ -1,0 +1,38 @@
+  c90        Afficher nom " ne se retrouve " ,i , 
+    FinSi 
+Fin Pour 
+ Fin 
+ 
+ 
+ EXERCICE 12 
+Algoriithe _dichotonique 
+
+  Tab ( 1 : 10 ): tableeau d' entiers 
+ m , n ,: entiers ; 
+ Debut  
+     Afficher "veillez saisir le nombre recherche"
+ saisir n;
+   m <---11 DIV 2 ;
+Si Tab [m]= n alors ,
+  afficher  n, " se retrouve à la " , m  " ième possibilite
+  sinon si Tab [m]> n alors 
+  Repeter
+        m <---(1+m)DV2: 
+    jusqu'a  Tab [m]=m ;
+   afficher n , " se retrouve à la " , m " ième possibilite
+    sinon si Tab [m]<n alors 
+   repeter
+        m <---- (n+10)DIV2;
+  jusqu à  Tab [m]=n 
+    afficher" n " se retrouve ",m, " ième possibilite 
+   sinon
+     afficher n, "ne se trouve pas dans le tableauf
+Fin Si
+fin
+   
+  
+exercice 13 
+
+
+
+
